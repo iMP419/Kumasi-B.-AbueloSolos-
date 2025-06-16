@@ -13,27 +13,6 @@ body {
   margin: 0 auto;
 }
 
-.hero-container {
-  text-align: center;
-  padding-top: 40px;
-}
-
-.hero-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 100px;
-  border: 4px solid #ff00f7;
-  box-shadow: 0 0 20px #ff00f7;
-  animation: fadeIn 1s ease-in;
-}
-
-.hero-name {
-  margin-top: 15px;
-  font-size: 2.5rem;
-  font-weight: 800;
-  animation: slideUp 1s ease-in;
-}
-
 .section-title {
   font-size: 1.8rem;
   text-align: center;
@@ -105,11 +84,6 @@ footer {
   }
 }
 
-.hero-container {
-  text-align: center;
-  padding-top: 40px;
-}
-
 .hero-image {
   width: 150px;
   height: 150px;
@@ -152,3 +126,22 @@ footer {
   text-align: center;
   animation: fadeIn 1.3s ease-in;
 }
+
+.social-icons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #ff00f7;
+  font-size: 1.8rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
